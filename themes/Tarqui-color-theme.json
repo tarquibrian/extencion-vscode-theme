@@ -137,7 +137,7 @@
 		  "string.quoted.docstring.multi.python punctuation.definition.string.end.python"
 		],
 		"settings": {
-		  "foreground": "#848bbd",
+		  "foreground": "#717188",
 		  "fontStyle": "italic"
 		}
 	  },
@@ -170,7 +170,7 @@
 		"name": "Language variable",
 		"scope": "variable.language",
 		"settings": {
-		  "foreground": "#fe4450",
+		  "foreground": "#ffffff",
 		  "fontStyle": "bold"
 		}
 	  },
@@ -179,7 +179,7 @@
 		"scope": "variable.parameter",
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#e2969c"
+		  "foreground": "#d4d4d4"
 		}
 	  },
 	  {
@@ -226,20 +226,6 @@
 		}
 	  },
 	  {
-		"name": "Entity",
-		"scope": "entity.name",
-		"settings": {
-		  "foreground": "#fe4450"
-		}
-	  },
-	  {
-		"name": "HTML or XML tag",
-		"scope": "entity.name.tag",
-		"settings": {
-		  "foreground": "#e06c75"
-		}
-	  },
-	  {
 		"name": "HTML or XML tag brackets",
 		"scope": ["punctuation.definition.tag"],
 		"settings": {
@@ -265,7 +251,7 @@
 		"name": "Class",
 		"scope": ["entity.name.type", "meta.attribute.class.html"],
 		"settings": {
-		  "foreground": "#fe4450"
+		  "foreground": "#ABB2BF"
 		}
 	  },
 	  {
@@ -273,13 +259,6 @@
 		"scope": "entity.other.inherited-class",
 		"settings": {
 		  "foreground": "#D50"
-		}
-	  },
-	  {
-		"name": "Function",
-		"scope": ["entity.name.function", "variable.function"],
-		"settings": {
-		  "foreground": "#78d1dd"
 		}
 	  },
 	  {
@@ -335,27 +314,34 @@
 		  "foreground": "#f97e72"
 		}
 	  },
+	//   {
+	// 	"name": "Support",
+	// 	"scope": "support",
+	// 	"settings": {
+	// 	  "foreground": "#ffffff"
+	// 	}
+	//   },
 	  {
-		"name": "Support",
-		"scope": "support",
+		"name": "Function",
+		"scope": "meta.function-call",
 		"settings": {
-		  "foreground": "#e06c75"
+		  "foreground": "#2abed1"
 		}
 	  },
 	  {
-		"name": "Support function",
-		"scope": "support.function",
+		"name": "entity.name.tag",
+		"scope": "meta.tag",
 		"settings": {
-		  "foreground": "#78d1dd"
+		  "foreground": "#d43b48"
 		}
 	  },
-	  {
-		"name": "Support variable",
-		"scope": ["support.variable", "variable.other.object.property.js"],
-		"settings": {
-		  "foreground": "#E06C75"
-		}
-	  },
+	//   {
+	// 	"name": "Support variable",
+	// 	"scope": ["support.variable", "variable.other.object.property.js"],
+	// 	"settings": {
+	// 	  "foreground": "#E06C75"
+	// 	}
+	//   },
 	  {
 		"name": "Object property",
 		"scope": "variable.other.object.property.js",
@@ -415,7 +401,7 @@
 		"name": "JS object path",
 		"scope": "variable.other.constant.property.js, variable.other.property.js",
 		"settings": {
-		  "foreground": "#2ee2fa"
+		  "foreground": "#ABB2BF"
 		},
 	  },
 	  {
@@ -440,13 +426,20 @@
 		}
 	  },
 	  {
+		"name": "CSS",
+		"scope": "support.constant",
+		"settings": {
+		  "foreground": "#F97E72"
+		}
+	  },
+	  {
 		"name": "Pseudo CSS",
 		"scope": [
 		  "entity.other.attribute-name.pseudo-element",
 		  "entity.other.attribute-name.pseudo-class"
 		],
 		"settings": {
-		  "foreground": "#D50"
+		  "foreground": "#e63e97"
 		}
 	  },
 	  {

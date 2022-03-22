@@ -1,5 +1,5 @@
 {
-    "name": "tarqui",
+    "name": "taquito-dark-pro",
     "displayName": "Taquito Dark Pro",
     "description": "",
     "version": "0.0.1",
@@ -12,7 +12,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Tarqui",
+                "label": "Taquito Dark Pro",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Tarqui-color-theme.json"
             }
