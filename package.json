@@ -1,0 +1,31 @@
+{
+    "name": "tarqui",
+    "displayName": "Taquito Dark Pro",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tarqui",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tarqui-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icon/dark-reader.png",
+    "author": {
+        "name": "Brian Tarqui",
+        "email": "tarquibrian@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/tarquibrian/extencion-vscode-theme.git",
+        "type": "git"
+    },
+    "publisher": "taquito-code"
+}
